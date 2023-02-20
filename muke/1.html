@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="1.css" type="text/css" />
+  <link rel="stylesheet" href="3.css">
+  <script src="1.js"></script>
+  <script src="2.js"></script>
+  <title>慕课</title>
+</head>
+
+<body>
+  <script src="swiper8/swiper-bundle.js" type="text/javascript" charst="utf-8"></script>
+  <div id="header">
+    <div class="page-container clearfix" id="nav" style="background-color: #fff !important;">
+      <div class="index-nav clearfix">
+        <div id="logo" class="logo"><a href="/" target="_self" title="首页"><img title="慕课网" src="logo2020.png"
+              style="margin-left: 4px;"></a></div>
+
+        <button type="button" class="navbar-toggle visible-xs-block js-show-menu">
+          <i class="icon-menu"></i>
+        </button>
+        <ul class="nav-item l">
+          <li class="set-btn visible-xs-block"><a href="/user/newlogin" target="_self">登录</a> / <a
+              href="/user/newsignup" target="_self">注册</a></li>
+          <li>
+            <a href="/course/list" target="_self">免费课</a>
+          </li>
+          <li>
+            <a href="//coding.imooc.com" target="_self">实战课</a>
+          </li>
+          <li><a href="//class.imooc.com" target="_self">体系课<i class="icn-new"></i></a></li>
+          <li><a href="/wiki" target="_self">慕课教程</a></li>
+          <li><a href="/read" target="_self">专栏</a></li>
+          <li><a href="/article" target="_self">手记</a></li>
+          <li><a href="https://qiye.imooc.com/" target="_blank">企业服务<i class="icn-new"></i></a></li>
+          <li style="display:none"><a href="/wenda" target="_self">猿问</a></li>
+        </ul>
+        <div id="login-area">
+          <ul class="header-unlogin clearfix">
+            <li class="shop-cart" id="shop-cart">
+              <a href="//order.imooc.com/pay/cart" class="shop-cart-icon" target="_blank">
+                <span class="icon-shopping-cart js-endcart"></span><span class="shopping_icon js-cart-num"
+                  data-ordernum="0" data-cartnum="0" style='display: none'>0</span>
+              </a>
+              <div class="my-cart" id="js-my-cart"></div>
+            </li>
+            <li class="header-signin">
+              <a href="//www.imooc.com/user/newlogin" id="js-signin-btn">登录</a> / <a
+                href="//www.imooc.com/user/newsignup" id="js-signup-btn">注册</a>
+            </li>
+          </ul>
+        </div>
+        <div class='search-warp clearfix' style='min-width: 32px; height: 72px'>
+          <div class="search-area" data-search="top-banner">
+            <input class="search-input" data-suggest-trigger="suggest-trigger" placeholder="请输入关键字..." type="text"
+              autocomplete="off">
+            <input type='hidden' class='btn_search' data-search-btn="search-btn" />
+            <div class="hotTags">
+              <a href="https://www.imooc.com/search/?words=Vue" target="_blank" class="">Vue</a>
+              <a href="https://www.imooc.com/search/?words=Python&amp;type=course" target="_blank"
+                class="last">Python</a>
+            </div>
+            <div class="search-area-result nav-search-box js-search-wrap">
+              <div class="hot">
+                <h2>热搜</h2>
+                <div class="hot-box">
+                </div>
+              </div>
+              <div class="history">
+                <ul data-suggest-result="suggest-result">
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class='showhide-search' data-show='no'><i class='imv2-search2'></i></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="nav-wrapper">
+    <ul class="nav clearfix ">
+      <li class="all-goods-wrapper">
+        <a class="nav1" href="javascript">全部商品分类</a>
+        <ul class="left-menu">
+          <div class="goods-info">前端开发</br>知识点:Vue.js Typescript React.js HTML/CSS Javascript Angular Node.js
+            jQuery Bootstrap Sass/Less WebApp 小程序 前端工具 CSS Html5 CSS3
+          </div>
+          <li class="show-goods">
+            <a href="javascript:;">
+              前端开发:HTML5/Vue.js/Node.js
+              <i class="imv2-arrow1_r"></i>
+            </a>
+          </li>
+          <li class="show-goods">
+            <a href="javascript:;">
+              后端开发:Java/Python/Go
+              <i class="imv2-arrow1_r"></i>
+            </a>
+          </li>
+          <div class="goods-info">这里下拉导航层和左侧导航条里的内容最好使用js去实现,这里就不演示了
+          </div>
+          <li class="show-goods">
+            <a href="javascript:;">
+              移动开发: Flutter/Python/iOS
+              <i class="imv2-arrow1_r"></i>
+            </a>
+          </li>
+          <div class="goods-info">这里下拉导航层和左侧导航条里的内容最好使用js去实现,这里就不演示了
+          </div>
+          <li class="show-goods">
+            <a href="javascript:;">
+              计算机基础:算法/数学/数据库
+              <i class="imv2-arrow1_r"></i>
+            </a>
+          </li>
+          <div class="goods-info">这里下拉导航层和左侧导航条里的内容最好使用js去实现,这里就不演示了
+          </div>
+          <li class="show-goods">
+            <a href="javascript:;">
+              前沿技术:AI/大数据/数据分析
+              <i class="imv2-arrow1_r"></i>
+            </a>
+          </li>
+          <div class="goods-info">这里下拉导航层和左侧导航条里的内容最好使用js去实现,这里就不演示了
+          </div>
+          <li class="show-goods">
+            <a href="javascript:;">
+              测试运维: 自动化测试/容器
+              <i class="imv2-arrow1_r"></i>
+            </a>
+          </li>
+          <div class="goods-info">
+            测试运维
+            知识点：运维 自动化运维 运维工具 中间件 Linux 测试 功能测试 性能测试 自动化测试 接口测试 安全测试
+          </div>
+          <li class="show-goods">
+            <a href="javascript:;">
+              更多方向: 产品设计/UI设计/游戏
+              <i class="imv2-arrow1_r"></i>
+            </a>
+          </li>
+        </ul>
+      </li>
+      <div class="container w">
+        <div class="swiper-button-prev" tabindex="0" role="button" aria-label="Previous slide">
+          <div class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide">
+            <input type="radio" id="pic1" name="pic" checked>
+            <input type="radio" id="pic2" name="pic">
+            <input type="radio" id="pic3" name="pic">
+            <input type="radio" id="pic4" name="pic">
+            <input type="radio" id="pic5" name="pic">
+            <div class="wrap">
+              <div class="swiper">
+
+                <img src="1.jpg" alt="scrollImage" class="img current">
+                <img src="2.jpg" alt="scrollImage" class="img">
+                <img src="3.jpg" alt="scrollImage" class="img">
+                <img src="4.jpg" alt="scrollImage" class="img">
+                <img src="5.jpg" alt="scrollImage" class="img">
+              </div>
+            </div>
+            <div class="banner-dots">
+              <span class></span>
+              <span class></span>
+              <span class></span>
+              <span class></span>
+              <span class="active"></span>
+              <a href="javascript:;" class="banner-anchor prev"></a>
+              <a href="javascript:;" class="banner-anchor next"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tool-bar">
+        <ul>
+          <li class="APP">
+            <a class="icon" href="javascript:;"></a>
+            <span class="text">意见反馈</span>
+            </a>
+          </li>
+          <li class="App">
+            <a class="icon" href="javascript:;"></a>
+            <span class="text">帮助中心</span>
+          </li>
+          <li class="APP">
+            <a class="icon" href="javascript:;"></a>
+            <span class="text">App下载</span>
+            <div class="beside-qrcode">
+              <img class="bsimg" src="11.png">
+              <span>安装慕课网App<br />下载课程随时学</span>
+            </div>
+            </a>
+          </li>
+          <li class="APP">
+            <a class="icon" href="javascript:;"></a>
+            <span class="text">官方微信</span>
+            <div class="beside-qrcode">
+              <img class="bsimg" src="12.png">
+              <span>扫描二维码<br />关注慕课网微信公众号</span>
+            </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="system-class-show">
+        <a class="show-box" data-type="3" data-position="1" data-title="Java工程师"
+          href="https://class.imooc.com/sale/java2021?mc_marking=27c503d8d83f4e27c222c7f27939e76a&amp;mc_channel=syjptx1"
+          target="_blank">
+          <div class="system-class-icon" style="background-image: url(7.jpg);"></div>
+          <div class="describe">
+            <h4>Java工程师</h4>
+            <p>王牌编程语言</p>
+          </div>
+        </a>
+        <a class="show-box" data-type="3" data-position="2" data-title="前端工程师"
+          href="https://class.imooc.com/sale/fe2021?mc_marking=ae6147731d01e9b46bd693e45b8ff94e&amp;mc_channel=syjptx2"
+          target="_blank">
+          <div class="system-class-icon" style="background-image: url(8.jpg);"></div>
+          <div class="describe">
+            <h4>前端工程师</h4>
+            <p>零基础首选易上手</p>
+          </div>
+        </a>
+        <a class="show-box" data-type="3" data-position="3" data-title="Python工程师"
+          href="https://class.imooc.com/sale/python2021?mc_marking=466c136dad84892934fdb99eb28b7fb9&amp;mc_channel=syjptx3"
+          target="_blank">
+          <div class="system-class-icon" style="background-image: url(6.jpg);"></div>
+          <div class="describe">
+            <h4>Python工程师</h4>
+            <p>超强生命力</p>
+          </div>
+        </a>
+        <a class="show-box" data-type="3" data-position="4" data-title="Go开发工程师"
+          href="https://class.imooc.com/sale/newgo?mc_marking=3808803a4d3e44a124f9e0d25242a4e8&amp;mc_channel=syjptx10"
+          target="_blank">
+          <div class="system-class-icon" style="background-image: url(9.jpg);"></div>
+          <div class="describe">
+            <h4>Go开发工程师</h4>
+            <p>未来3-5年刚需人才</p>
+          </div>
+        </a>
+        <a class="show-box" data-type="3" data-position="5" data-title="Java高级工程师"
+          href="https://class.imooc.com/sale/javasenior?mc_marking=a1f07f5a51c8ecfccda5c370c719f026&amp;mc_channel=syjptx12"
+          target="_blank">
+          <div class="system-class-icon" style="background-image: url(10.jpg);"></div>
+          <div class="describe">
+            <h4>Java高级工程师</h4>
+            <p>高级人才必修课</p>
+          </div>
+        </a>
+        <a class="all-btn" target="_blank" href="//class.imooc.com/">
+          <div class="mini-title">体系课</div>
+          <div class="more-btn">more<span class="icon-right2"></span></div>
+        </a>
+        <ul id="menu">
+          <a href="javascript:;">
+            <li title="新上好课" class="active">新上好课</li>
+          </a>
+          <a href="javascript:;">
+            <li title="慕课直播" class="">慕课直播</li>
+          </a>
+          <a href="javascript:;">
+            <li title="慕课榜单" class="">慕课榜单</li>
+          </a>
+          <a href="javascript:;">
+            <li title="进站必学" class="">进站必学</li>
+          </a>
+          <a href="javascript:;">
+            <li title="学习路线" class="">学习路线</li>
+          </a>
+        </ul>
+</body>
+
+</html>
