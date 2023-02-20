@@ -940,7 +940,7 @@ a:hover {
 }
 
 #header .page-container.double202011 #login-area .shop-cart .shop-cart-icon {
-  border: 1px solid rgba(255, 255, 255, .5) !important
+  border: 1px solid rgba(0, 0, 0, 0.5) !important
 }
 
 #header .page-container.double202011 #login-area .shop-cart .shop-cart-icon span {
@@ -1130,7 +1130,7 @@ a:hover {
   box-sizing: border-box;
   height: 36px;
   line-height: 36px;
-  color: #787d82;
+  color: #0a77e4;
   text-align: center
 }
 
@@ -3862,7 +3862,7 @@ div {
 }
 
 .shop-cart .shop-cart-icon span {
-  color: #545c63
+  color: #0789fb
 }
 
 .shop-cart.hover .shop-cart-icon span {
@@ -8973,7 +8973,9 @@ ul .left-menu li a:hover {
 /* 默认选中第一张，根据选中的input，展示对应的图片 */
 #pic1:checked~.wrap img:nth-of-type(1),
 #pic2:checked~.wrap img:nth-of-type(2),
-#pic3:checked~.wrap img:nth-of-type(3) {
+#pic3:checked~.wrap img:nth-of-type(3),
+#pic4:checked~.wrap img:nth-of-type(4),
+#pic5:checked~.wrap img:nth-of-type(5) {
   opacity: 1;
   animation: showImg linear 1s 1 0s normal;
 
