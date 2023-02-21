@@ -8865,9 +8865,9 @@ ul .left-menu li a:hover {
   /* box-shadow: 0 5px 5px rgb(0,0, 0,.3); */
   transition: height 0.5s;
   z-index: 888;
-  line-height: 228px;
+  line-height: 22px;
   text-align: center;
-  font-size: 14px;
+  font-size: 13px;
   color: rgb(0, 0, 0);
 }
 
