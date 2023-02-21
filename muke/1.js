@@ -82,4 +82,3 @@ img[5].onclick = function () {
 img[6].onclick = function () {
   bgImg.src = "7.jpg";
 };
-import "swiper/css/swiper.css";
