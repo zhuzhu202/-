@@ -9235,3 +9235,7 @@ ul .left-menu li a:hover {
   margin-bottom: 10px;
   font-size: 20px;
 }
+
+.imv2-arrow1_r:before {
+  content: "\e5cb"
+}
